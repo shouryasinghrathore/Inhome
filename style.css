@@ -32,6 +32,7 @@
 
 *{ margin: 0;
     padding: 0;
+    /* font-family: sans-serif; */
     background-color: rgb(255, 254, 252);
 }
 .bfs{
@@ -123,6 +124,7 @@ footer {
 .anc{
     color: var(--blue);
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 
