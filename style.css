@@ -61,7 +61,8 @@
 
 
 
-.blb{    color: var(--blue) !important;
+.blb{   
+     color: var(--blue) !important;
 font-family: serif;
 font-size: 24px !important;
 
@@ -91,11 +92,11 @@ ul li{
     background-color: rgb(225, 230, 245) ;
 
 }
-.fa-truck,.fa-couch,.fa-cube{ font-size: 21px;
-    color: rgb(6, 6, 95);
+.fa-truck,.fa-couch,.fa-cube{ 
+    font-size: 22px;
+    color: rgb(14, 14, 114);
     text-align: center !important;
-    border-radius:2rem !important
-    ;
+    border-radius:2rem !important;
 }
 .s{
     font-size: 11px;
@@ -134,23 +135,23 @@ footer {
 
 
 .yel{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 243, 243);
 }
 /* media Query */
 
 
 .card-1{
     width: 100%;
-    height:100% ;
+    height:98% ;
     border: none !important;
     position: relative;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     
 }
 .card-2{
-    border-radius: 5px;
+    /* border-radius: 5px; */
     width: 100%;
-    height:100% ;
+    height:98% ;
     border: none !important;
     position: relative;
     
@@ -162,9 +163,14 @@ footer {
 .lore{
     position:absolute;
     bottom: 0px;
-    color: white;
+    color: var(--blue);
+    background-color: white !important;
+    padding: 2px 7px;
+border-radius:4px;
     left: 20px;
-    background: transparent;
+    font-size: 18px;
+    font-family: serif;
+
 
 }
 
@@ -186,6 +192,28 @@ footer {
     .coo{
         text-align: center !important;
 
+    }
+    .lore{
+        font-size: 14px;
+    }
+   
+
+}
+
+@media (max-width:552px){
+    .p{  max-width: 90%;
+        font-size: 12px !important;
+    }
+    .bo{
+        text-align: center !important;
+    }
+    .coo{
+        text-align: center !important;
+
+    }
+    .lore{
+        font-size: 11px;
+        
     }
    
 
