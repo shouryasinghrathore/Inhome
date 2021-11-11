@@ -218,3 +218,11 @@ border-radius:4px;
    
 
 }
+#preloader{
+    background: rgb(255, 255, 255) url("https://i.pinimg.com/originals/f6/65/6a/f6656aa6fdb6b8f905dea0bcc2d71dd8.gif") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: 250px;
+    z-index: 100 !important;
+}
